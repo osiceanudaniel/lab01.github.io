@@ -1,71 +1,60 @@
-# Flaty
-Flaty is a mobile-ready application that aims to ease certain aspects in resident's associations across Romania.
+## How to Use This Theme
+Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
 
-## The Team
-    
-  During this project, the team is made from the following mates: 
-  - [Toma](mailto:rptoma@gmail.com)- Spech master, dev and tester
-  - [Alexandru](mailto:alexandrumargan@gmail.com) - Dev, tester and UI Design
-  - [Daniel](mailto:osiceanu_dan@yahoo.com)- Dev, tester and UI Design
-  - [Adina](mailto:adinam.stan@yahoo.com)- Dev, tester and UI Design
-  - [Ioana](mailto:ioana.andreea.simion95@gmail.com)- Dev, tester and UI Design
-  - [Andra](mailto:diana.alexandra.puiu@gmail.com)- Dev, tester and UI Design
+Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively-src/archive/master.zip) and save it to any folder you want.
 
-Our team will develop an Android and iOS application that aims to make the notice board from every staircase forgotten.  You can find the app ready to be downloaded [TO DO:: ADD AppStore and GooglePlay links here]. 
+Open a terminal window or a command line and ```cd``` to that location.
 
+Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
 
-### Problems
+## Features
+### Auto-Generating Sitemap
+The sitemap is auto generated! Just simply change the sitemap variable in front matter of each page. It looks like so...
+```
+sitemap:
+    priority: 0.7
+    lastmod: 2017-11-02
+    changefreq: weekly
+```
 
-As a team, we noticed for Flaty several problems:
-
-1. We don't know how old people will react to it
-2. We have to learn React Native in order to make it for both Android and iOS platforms
-
-Our major problem is that we don't have any clue how the old people from old neighborhoods will react to this new application and neither if that they have access to a smartphone with Android or iOS.
+### Formspring.io Integration
+Formspring is supported out of the box! Just add your email to ```_config.yml```
 
 
-### Our Solution
-
-Our solution to that major problem is to educate properly the eledry ones and give them all the support to learn how to handle our application in order to make their life much easier.
-
-### Customer Segment
-
-Flaty is aiming to customers from all the resident areas, including the administrators of the associations.
-
-
-### Competition
-
-We observed that there are severals application available online, like those:
-
-| COMPETITOR NAME | WEBSITE |
-| ------ | ------ |
-| COMPETITOR 1 | [plugins/dropbox/README.md][PlDb] |
-| COMPETITOR 2 | [plugins/github/README.md][PlGh] |
-| COMPETITOR 3 | [plugins/googledrive/README.md][PlGd] |
+## Credits
+### Original README from HTML5 UP
+```
+Massively by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-### Our Advantage Over The Competition
+This is Massively, a text-heavy, article-oriented design built around a huge background
+image (with a new parallax implementation I'm testing) and scroll effects (powered by
+Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
+that fulfills a few user requests and makes use of some new techniques I've been wanting
+to try out. Enjoy it :)
 
-Our advantage over the competitors are that we have an application and they have only websites.
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-### Key Metrics
-TODO:: HOW TO DO?
+(* = not included)
 
-### Cost Structure
-TODO:: WRITE COST STRUCTURE
-
-
-
-### Revenue Streams
-
-SUNTEM SARACI, MOMENTAN NU PRIMIM BANI, DAR SPERAM CA PUTEM CERE O TAXA DE 2 LEI/APARTAMENT CARE UTILIZEAZA APLICATIA.
+AJ
+aj@lkn.io | @ajlkn
 
 
+Credits:
 
+	Demo Images:
+		Unsplash (unsplash.com)
 
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+	Icons:
+		Font Awesome (fortawesome.github.com/Font-Awesome)
+
+	Other:
+		jQuery (jquery.com)
+		Misc. Sass functions (@HugoGiraudel)
+		Skel (skel.io)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
+```
